@@ -1,0 +1,54 @@
+body {
+    margin: 0px; /* Margem externa*/
+    padding: 0px; /* Margem interna*/
+}
+
+#menu-principal {
+    width: 100%;
+    height: 100px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #bababa;
+}
+
+#menu-principal div a {
+    color: white; 
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: inter;
+    
+}
+
+#menu-principal div a:hover{
+    color: #cccccc;
+
+}
+
+#menu-superior {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#menu-principal button {
+    margin-right: 5%;
+    color: white;
+    Weight: 600;
+    size: 20px;
+    line-height: 24.2px;
+    background-color: #0C70F2;
+    font-family: inter;
+    width: 80px;
+    height: 39px;
+    top: 31px;
+    left: 1245px;
+    margin-top: 25px;
+    box-shadow: 3px 2px 4px 0px #0C70F240;;
+    border: 0;
+    cursor: pointer;
+}
+
